@@ -34,14 +34,7 @@ const getWeather = async () => {
 };
 
 
-const getWeatherButton = document.getElementById('getWeather');
-getWeatherButton.addEventListener('click', getWeather);
-document.addEventListener('keypress',(e)=>{
-  e.preventDefault();
- console.log(e.key);
- if(e.key=="Enter")
- return getWeather();
-})
+
 
 const cityInput = document.getElementById('city');
 const cityName = cityInput.value;
