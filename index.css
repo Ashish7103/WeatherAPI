@@ -1,0 +1,120 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  #weather {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  #city {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #getWeather {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #getWeather:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Default styles for the card */
+.card {
+  width: 60vw;
+  background: #444;
+  margin: 20px auto;
+  border: 1px solid transparent;
+  box-shadow: cyan -1px 1px 1px 2px ;
+  -webkit-box-sizing: content-box !important;
+  border-radius:5px ;
+  filter: blur(1);
+  
+}
+
+/* Container for the card content */
+.container {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  padding: 20px;
+}
+.card_heading{
+  /* text-align: center ; */
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color:cornflowerblue;
+  font-family: 'Edu SA Beginner', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Recursive', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.apiValue{
+text-transform: lowercase;
+font-weight: 600;
+color: rgba(0, 255, 255, 0.752);
+font-family: 'Caveat', cursive;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Recursive', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+img{
+  max-width: 40%;
+  height: 100%;
+  margin: auto;
+}
+/* Responsive adjustments using media queries */
+@media (max-width: 600px) {
+  .card {
+    width: 90%; /* Adjust as needed */
+  }
+}
