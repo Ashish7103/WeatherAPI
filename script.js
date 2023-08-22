@@ -33,6 +33,7 @@ const getWeather = async () => {
   }
 };
 
+
 const getWeatherButton = document.getElementById('getWeather');
 getWeatherButton.addEventListener('click', getWeather);
 
